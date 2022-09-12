@@ -3,7 +3,7 @@ class Bullet {
         this.x = x;
         this.y = y;
         this.angle = angle;
-        this.damage = damage;
+        this.damage = damage*100000;
         this.velocity = velocity;
         this.sprayDeviation = sprayDeviation;
         this.playerFired = playerFired;
